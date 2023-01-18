@@ -52,7 +52,7 @@ img.bar-icons{
     margin: 15px -30px 0 0px;
 }
 #mic{
-    width: 17px;
+    max-width: 17px;
     margin: 30px 10px 0 px;
 }
 #searchicon {
@@ -65,7 +65,7 @@ div.first-end{
     margin: 10px 0 0 100px;
 }
 img.firstend-icon{
-    width: 20px;
+    max-width: 20px;
     height: 20px;
     margin-left: 40px;
 }
@@ -84,7 +84,7 @@ p.b{
     fill: #8ab4f8;
     height: 18px;
     margin-right: 8px;
-    width: 18px;
+    max-width: 18px;
 }
 div.second-top{
 
@@ -100,7 +100,7 @@ div.fill-top{
     border: 1px  solid #3C4043;
     padding: 7px;
     border-radius: 30px;
-    width: 90px;
+    max-width: 90px;
     margin-right: 8px;
 }
 span{
@@ -141,7 +141,7 @@ div.lionel{
 .threedots{
     height: 18px;
     margin: 5px 0 0 70px;
-    width: 30px;
+    max-width: 30px;
 }
 p.footballer{
     margin-top: -22px;
@@ -176,6 +176,7 @@ div.one{
 
 div.images{
     width: 100%;
+    max-width: 800px;
     position: relative;
     height: 40vh;
 }
@@ -184,6 +185,7 @@ div.images1{
 
     display: flex;
     width: 100%;
+    max-width: 800px;
     flex-wrap: wrap;
    
 }
@@ -192,7 +194,7 @@ div.first-image{
     margin-top: 45px;
 }
 img.messi1{
-    width: 150px;
+    max-width: 150px;
    
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -203,12 +205,12 @@ div.other{
     margin-top: 45px;
 }
 img.messi2{
-    width: 250px;
+    max-width: 250px;
     margin: 1px;
     
 }
 img.messi3{
-    width: 150px;
+    max-width: 150px;
     margin: 1px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;   
@@ -217,6 +219,7 @@ div.the-text {
     background-color: #202124;
     position: relative;
     width: 55%;
+    max-width: 250px;
 }
 p.top-stories{
     color: #E8EAED;
@@ -226,12 +229,14 @@ p.top-stories{
 }
 div.secondline{
     width: 85%;
+    max-width: 800px;
     height: 1px;
     background-color: #3C3D40;
     margin: 10px 0 0 0px;
 }
 div.the-stories{
     width: 70%;
+    max-width: 800px;
     margin: 40px 0 0 0px;
     display: flex;
     justify-content: space-between;
@@ -246,9 +251,11 @@ div.dailypost{
 }
 div.newstext{
     width: 70%;
+    max-width: 400px;
 }
 div.newsimg{
     width: 50%;
+    max-width: 300px;
     margin: 20px 0 0 0px;
 }
 span.news{
@@ -263,9 +270,14 @@ a.words{
     text-decoration: none;
     display: block;
     margin-top: 10px;
+    line-height: 25px;
+}
+.words:hover{
+    text-decoration: underline;
+    transition: 1.2s;
 }
 img.newsimg{
-    width: 80px;
+    max-width: 80px;
     border-radius: 10px;
     justify-items: flex-end;
 }
@@ -281,6 +293,7 @@ div.middle{
 }
 div.two{
     width: 100%;
+    max-width: 500px;
     margin-top: 60px;
     padding: 30px 50px 30px 30px;
 }
@@ -309,6 +322,10 @@ p.About{
     cursor: pointer;
     margin-left: 5px;
 }
+.about-links:hover{
+    transition: 1.2s;
+    text-decoration: underline;
+}
 .para{
     color: #BDC1C6;
     font-weight: 700;
@@ -317,23 +334,27 @@ p.About{
 div.just-one{
    display: flex;
    width: 190%;
+   max-width: 500px;
 }
 div.paragraph{
     width: 40%;
+    max-width: 200px;
 }
 button.more{
     width: 40%;
+    max-width: 300px;
     padding: 7px;
     color: #E8EAED;
     font-size: 14px;
     border: 2px solid #3C3D40;
     border-radius: 50px;
     cursor: pointer;
-    margin: 5px 0 0 0px;
+    margin: 5px 0 100px 0px;
     background-color: #3C3D40;
 }
 button.moore{
     width: 70%;
+    max-width: 300px;
     padding: 7px;
     color: #E8EAED;
     font-size: 14px;
@@ -345,17 +366,24 @@ button.moore{
 }
 div.associate{
     width: 100%;
+    max-width: 400px;
     display: flex;
     flex-wrap: nowrap;
     margin-top: 10px;
 }
 div.picdiv{
-    width: 50%
+    max-width: 50%
 }
 p.search-associate{
     color: #E8EAED;
-    font-size: large;
+    font-size: 16px;
+    font-weight: 500;
     margin-top: 50px;
+}
+p.we_ask{
+    color: #E8EAED;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 img.associpic{
     border-radius: 5px; 
@@ -367,4 +395,50 @@ a.associlinkk{
 a.associlinkk:hover{
     text-decoration: underline;
     transition: 1.2s;
+}
+.accordion{
+    max-width: 500px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.accordion_label , .accordion_content{
+    padding: 14px 20px;
+}
+.accordion_label{
+    display: block;
+    color: #E8EAED;
+    font-weight: 500;
+    border-top: 1px solid #3C4043;
+    cursor: pointer;
+    max-width: 450px;
+    position: relative;
+    transition: background 0.1s;
+}
+.accordion_label::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8, <svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+.accordion_content{
+    color: #BDC1C6;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 400px;
+    display: none;
+}
+.accordion_input{
+    display: none;
+}
+.accordion_input:checked ~ .accordion_content {
+    display: block;
+}
+.accordion_input:checked ~ .accordion_content::after{
+    transform: translateY(-50%) , rotate(0.5turn);
 }
