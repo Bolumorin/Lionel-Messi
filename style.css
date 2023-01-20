@@ -479,10 +479,50 @@ div.wiki{
     cursor: pointer;
     margin: 7px 0px;
 }
+.messi:hover{
+    text-decoration: underline;
+}
 .wikimage{
     border-radius: 10px;
     margin: 10px 0 0 2px;
 }
 div.videos{
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 30px;
+}
+div.video1{
+   border-top: 1px solid #3C4043;
+   border-bottom: 1px solid #3C4043;
+   display: flex;
+   justify-content: space-between;
+   height: 20vh;
+   width: 100%;
+}
+div.vid{
+    padding: 30px;
+    display: block;
+    margin: 20px 20px 0;
+    border-radius: 10px;
+    background-color: rgb(199, 196, 196);
+    width: 25%;
+    height: 15vh;
+}
+.play{
+    max-width: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.minute{
+    background-color: black;
+    border-radius: 30px;
+    width: 30px;
+    margin: 20px 40px 0px 0;
+    padding: 0px 3px;
+    color: white;
+    font-size: 12px;
+}
+div.vidwords{
+    width: 70%;
+    height: 15vh;
+    margin-top: 20px;
 }
