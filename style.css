@@ -7,6 +7,7 @@ body{
     min-height: 100vh;
     background-color: #202124;
     overflow-x: hidden;
+
 }
 nav{
     border-bottom: 1px solid #3C4043;
@@ -172,7 +173,8 @@ div.main{
     display: flex;
 }
 div.one{
-    padding-left: 80px;
+    padding-left: 70px;
+    width: 80%;
 }
 
 div.images{
@@ -526,6 +528,7 @@ div.vidwords{
     height: 15vh;
     margin-top: 20px;
 }
+
 button.view-all{
     width: 40%;
     max-width: 300px;
@@ -535,6 +538,6 @@ button.view-all{
     border: 2px solid #3C3D40;
     border-radius: 50px;
     cursor: pointer;
-    margin-left: 150px;
+    margin: 05px 0 0 50px;
     background-color: #3C3D40;
 }
