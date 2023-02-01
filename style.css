@@ -597,7 +597,7 @@ div.related_searches{
 .num_link.thenext{
     margin-left: 80px;
 }
-footer{
+.footer{
     background-color: #171717;
     padding: 30px;
     margin-top: 30px;
@@ -632,6 +632,59 @@ div.options{
 }
 
 
-@media screen {
-    
+@media screen and (max-width : 820px) {
+    nav{
+        border-bottom: 1px solid #3C4043;
+        max-height: 50%;
+        width: 100%;
+    }
+    #google{
+        width: 150px;
+        height: 45px;
+        margin: 0 0 10px -20px;
+        position: absolute;
+    }
+    div.searchbar{
+        width: 50%;
+        padding: 1px;
+        margin: 50px 0 40px -30px;
+        max-height: 40px;
+        /* position: relative; */
+        border: 1px #3C3D40;
+        background-color:  #3C3D40;
+        border-radius: 59px;
+        display: flex;
+        /* justify-content: space-around  ; */
+    }
+    ::placeholder{
+        color: #fff;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+img.bar-icons{
+    width: 15px;
+    max-height: 50px;
+    margin: 15px 10px 0 10px;
+}
+#mic{
+    max-width: 17px;
+    margin: 30px 10px 0 px;
+}
+#searchicon {
+    width: 30px;
+    margin: 14px 0 0 0px;
+}
+div.first-end{
+    display: none;
+    justify-content: space-between;
+    margin: 10px 0 0 100px;
+}
+div.second-top{
+
+    max-width: 100%;
+    display: none;
+    /* padding: 20px 0 0 80px; */
+    margin-bottom: 10px;
+}
 }
